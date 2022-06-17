@@ -1,1 +1,42 @@
-test
+body{
+    background: rgb(53, 100, 188);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-size: 3em;
+	color: black;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.sidebar{
+    background-image: url("https://gcdn.thunderstore.io/live/repository/icons/fsce-Freddy_Plush-1.0.0.png.256x256_q95_crop.png");
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 75px;
+	z-index: 1;
+}
+
+#left{
+	left:0;
+}
+#right{
+	right:0;
+}
+
+.header img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: #555;
+	align-items: center;
+  }
+  
+  .header h1 {
+	position: relative;
+	top: 18px;
+	left: 10px;
+  }
