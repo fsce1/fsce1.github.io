@@ -1,11 +1,11 @@
 body{
-    background: rgb(53, 100, 188);
-    font-family: 'Open Sans', sans-serif;
+    background: rgb(0, 0, 0);
+    font-family: 'Courier New', sans-serif;
 }
 
 h1{
 	font-size: 3em;
-	color: black;
+	color: green;
 	/*text-align: center;*/
 	margin-top: 10px;
 	display: inline;
@@ -13,11 +13,11 @@ h1{
 
 
 .sidebar{
-    background-image: url("https://gcdn.thunderstore.io/live/repository/icons/fsce-Freddy_Plush-1.0.0.png.256x256_q95_crop.png");
+    background-image: url("giphy.webp");
 	position: fixed;
 	top: 0;
 	height: 100%;
-	width: 75px;
+	width: 150px;
 	z-index: 1;
 }
 
@@ -29,11 +29,29 @@ h1{
 }
 
 .header img {
-	width: 50px;
-	height: 50px;
+
   }
   
-  .header {
-	padding: 30px;
-	text-align: center;
+.header {
+	padding: 150px;
+	text-align: left;
 }
+
+
+p { 
+        font-size:14px; 
+        color: green; 
+		}
+
+.var {
+	color: blue;
+	}
+
+.string { /* OK, a bit contrived... */
+	 color: orange;
+	}
+.method{
+
+}
+/* Links / "Method Groups" */
+
